@@ -63,3 +63,52 @@ a:hover {
     margin-top: 40px;
     margin-left: -300px;
 }
+.branding {
+    margin-top: 60px;
+}
+.services {
+    margin-bottom: 50px;
+    
+}
+.round img{
+    position: relative;
+    border-radius: 50%;
+    top: 45px;
+    left: 6px;
+}
+.border {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    top: 4px;
+    left: 61px;
+    border: 17px solid white;
+    background: #8eb53e;
+    box-shadow: 0px 0px 0px 1px #dedede;
+}
+.services h2{
+padding-top: 90px;
+text-align: center;
+text-transform: uppercase;
+}
+.services p{
+    text-align: center;
+    text-transform: capitalize;
+}
+.portfolio {
+    border-top: 3px dashed  rgb(150, 138, 138);
+    
+}
+.background {
+    position: relative;
+     background-image: url("../media/pattern.jpg")
+     width: 30px;
+    height: 30px;
+}
+.portfolio h3{
+    position: absolute;
+    margin-top: -20px;
+   
+    
+}
