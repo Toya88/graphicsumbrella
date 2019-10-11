@@ -22,10 +22,10 @@ h1 span {
     font-size: 25px;
     margin-top: -10px;
 }
-ul {
+.index ul {
     list-style: none;
 }
-li {
+.index  li {
     display: inline;
 }
 a{
@@ -42,8 +42,6 @@ a:hover {
 }
 .top_nav a {
     margin-right: 50px;
-    margin-left: -164px;
-    padding-right: 165px;
     font-size: 12px;
 }
 .header {
@@ -111,4 +109,33 @@ text-transform: uppercase;
     margin-top: -20px;
    
     
+}
+h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: uppercase;
+}
+h4{
+    text-transform: uppercase;
+}
+.list ul {
+    list-style-type: disc;
+}
+
+
+.green{
+    width: 100%;
+    background: #a0c63f;
+    padding: 30px;
+}
+.main_white{
+    background-color: white;
+    width: 110rem;
+    padding: 15px;
+    margin-top: 50px;
+    border: 2px solid rgb(238, 235, 235);
+}
+.right {
+    margin-left:-20px;
 }
