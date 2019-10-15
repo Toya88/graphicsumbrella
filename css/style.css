@@ -225,3 +225,29 @@ h4{
     border-bottom: 2px dashed rgb(238, 235, 235);
     margin-left: 0px;
 }
+
+/* at media */
+
+@media only screen and (max-width: 1025px) {
+    .top_nav li{
+        margin-left: -20px;
+    }
+    .main p{
+        margin-left: -30px;
+    }
+    .border {
+        left: 37px;
+    }
+    .prints p{
+        font-size: 10px;
+        margin-bottom: 0px;
+        padding-left: 12px;
+    }
+    .prints {
+        width: 39rem;
+    }
+    .advertisers li{
+        display: inline-flex;
+        padding: 30px 50px;
+    }
+    }
